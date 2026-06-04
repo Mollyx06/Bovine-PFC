@@ -1,0 +1,3 @@
+subset_id,include_annotations,resolution
+subset_a,broad_label_1; broad_label_2,0.3
+subset_b,broad_label_3,0.4

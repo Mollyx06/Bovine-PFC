@@ -1,0 +1,19 @@
+name: bovine-pfc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pip
+  - anndata>=0.10
+  - matplotlib>=3.8
+  - networkx>=3.2
+  - numpy>=1.26
+  - pandas>=2.1
+  - scanpy>=1.10
+  - scipy>=1.11
+  - pip:
+      - gseapy>=1.1
+      - scvelo>=0.3
+      - stereopy>=1.0
+      - tacco>=1.0

@@ -1,0 +1,2 @@
+sample_id,library_id,spliced_mtx,unspliced_mtx,barcodes,genes
+sample_01,library_01,data/private/sample_01_spliced.mtx.gz,data/private/sample_01_unspliced.mtx.gz,data/private/sample_01_barcodes.txt,data/private/sample_01_genes.txt

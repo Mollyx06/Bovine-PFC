@@ -1,0 +1,4 @@
+subset_id,cluster,subtype
+subset_a,0,subtype_label_1
+subset_a,1,subtype_label_2
+subset_b,0,subtype_label_3

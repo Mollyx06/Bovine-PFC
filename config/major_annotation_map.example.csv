@@ -1,0 +1,4 @@
+sample_id,cluster,annotation
+sample_01,0,broad_label_1
+sample_01,1,broad_label_2
+*,2,broad_label_shared

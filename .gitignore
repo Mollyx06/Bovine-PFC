@@ -1,0 +1,68 @@
+# Local data and generated analysis products
+data/
+raw/
+processed/
+results/
+outputs/
+figures/
+plots/
+tables/
+tmp/
+temp/
+
+# Large or sensitive scientific data
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.rds
+*.RData
+*.Rdata
+*.mtx
+*.mtx.gz
+*.npz
+*.npy
+*.parquet
+*.feather
+*.zarr/
+
+# Generated tables and local manifests
+*.csv
+*.tsv
+*.txt
+!config/*.csv
+!config/*.tsv
+!config/*.txt
+!env/*.txt
+!docs/*.md
+
+# Manuscripts, references, figures, and presentations
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.ppt
+*.pptx
+*.doc
+*.docx
+
+# Notebooks and notebook checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# Private local configuration
+config/*local*
+config/*private*
+config/*.real.*
